@@ -1,0 +1,349 @@
+@font-face {
+    font-family: 'FuturaMediumC';
+    src: url('FuturaMediumC.woff') format('woff');
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'Baskerville Cyrillic LT Std';
+    src: url(BaskervilleCyrLTStd-Upright.eot);
+    src: url(BaskervilleCyrLTStd-Upright.eot?#iefix) format('embedded-opentype'),url(BaskervilleCyrLTStd-Upright.woff) format('woff'),url(BaskervilleCyrLTStd-Upright.ttf) format('truetype'),url(BaskervilleCyrLTStd-Upright.svg#BaskervilleCyrLTStd-Upright) format('svg');
+    font-weight: 400;
+    font-style: normal
+}
+
+body {
+  font: 400 15px/17px 'FuturaMediumC','Arial',sans-serif;
+}
+.top-line{
+  background-color: #EFEFEF;
+  height: 25px;
+  margin: -8px -8px 0px -8px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+.top-line div {
+  float: left;
+  padding: 0 120px;
+}
+.top-line ul{
+  float:right;
+  list-style: none;
+  padding: 0;
+  margin: 0 40px 0px 0px;
+}
+.top-line li{
+  float: left;
+}
+.top-line li+li{
+    margin-left: 40px;
+}
+.top-line:after{
+  content: ' ';
+  display: table;
+  width: 100%;
+}
+.logo-block{
+  height: 100px;
+}
+.left{
+  margin-left: 50px;
+  margin-top: 40px;
+  float: left;
+}
+
+.right{
+  margin-right:175px;
+  margin-top: 40px;
+  font-weight: bold;
+  float: right;
+}
+.centre{
+    float: 100px;
+    text-align: center;
+}
+.menu{
+  background-color: #1A1A1A;
+  color: #fff;
+  margin: -8px -8px 0px -8px;
+}
+.menu ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu li{
+  display: inline-block;
+}
+.menu li+li{
+  margin-left: 50px;
+}
+.menu a{
+  display:inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 4px 0;
+}
+.submenu{
+  height: 60px;
+
+}
+.submenu ul{
+  margin:0;
+  padding: 0 0 0 /*120px*/;
+}
+.submenu li{
+  display: inline-block;
+}
+.submenu li+li{
+  margin-left: 12px;
+}
+.submenu a{
+  display:inline-block;
+  color: #9b9b9b;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 23px 0px;
+}
+
+.grid{
+    margin-right: -5px;
+}
+
+.grid> div{
+  height: 850px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+
+}
+.grid div div h4{
+  height: 140px;
+  width:80%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  background-color: grey;
+  margin-top:0;
+}
+
+.grid> div:nth-child(1){
+  width:10%;
+}
+
+.grid> div:nth-child(2){
+    width:50%;
+  /*  background-color: green; */
+}
+
+.grid> div:nth-child(3){
+  width:40%;
+  background-color: yellow;
+
+}
+.grid div h1{
+  font: 45px/45px 'Baskerville Cyrillic LT Std','Arial',sans-serif;
+}
+.grid div h2{
+  font:400 40px/70px 'FuturaMediumC','Arial',sans-serif;
+}
+.buy ul{
+  margin:-35px 0px 0px;
+  padding: 0px;
+}
+.buy li{
+  font:400 20px/20px 'FuturaMediumC','Arial',sans-serif;
+  display: inline-block;
+}
+#bord{
+  border: 3px solid #1A1A1A;
+  padding: 5px 11px;
+  margin: 5px;
+}
+#button-buy{
+  font:400 23px/20px 'FuturaMediumC','Arial',sans-serif;
+  background-color: #1A1A1A;
+  height: 37px;
+  width: 213px;
+  color: #fff;
+  padding: 4px 0;
+  font-weight: bold;
+}
+
+.like ul{
+  margin:40px;
+  padding: 0;
+}
+.like li {
+  display: block;
+}
+.like li a{
+  text-decoration: none;
+  color: #ff0092;
+  font-size: 16px;
+  font-weight: bold;
+}
+.like-network ul{
+  margin:45px;
+  padding: 0;
+}
+.like-network li{
+  display:inline-block;
+}
+.option div{
+  border-top:  2px solid #1A1A1A;
+
+/*  text-decoration: none;        :nth-child(3)*/
+  padding: 0px 25px;
+  margin: 20px;
+}
+.option div:nth-child(3){
+  padding-bottom: 10px;
+  border-bottom:   2px solid #1A1A1A;
+}
+.option div h3{
+  text-align: left;
+  font:15px/30px 'FuturaMediumC','Arial',sans-serif;
+  text-transform: uppercase;
+  margin: 13px 0px 0px;
+  font-weight: bold;
+}
+.option div h6{
+  padding: 0px;
+  text-align: left;
+  font:15px/25px 'Baskerville Cyrillic LT Std','Arial',sans-serif;
+  margin: 0px 0px 13px;
+  font-weight: bold;
+}
+.like-you h2{
+/*  border:  5px solid #1A1A1A;*/
+  color: #1A1A1A;
+  text-align:center;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.like-you div{
+  height: 380px;
+  background-color: grey;
+  width:200px;
+  display: inline-block;
+/*  border-bottom:  5px solid #1A1A1A;*/
+  margin: 10px 10px 40px;
+  text-align: center;
+}
+.like-you img{
+  height: 275px;
+  width: 185px;
+  margin: 7px;
+}
+.like-you h3{
+    font:15px/10px 'Baskerville Cyrillic LT Std','Arial',sans-serif;
+    margin-top: 5px;
+}
+
+.like-you a+h3{
+  display: inline-block;
+  text-align: center;
+}
+.like-you a{
+  text-align: center;
+}
+.img-botom{
+  border-bottom:  2px solid #d3d3d3;
+  border-top:  2px solid #d3d3d3;
+  height: 300px;
+}
+.img-botom div{
+  display:inline-block;
+  height: 210px;
+  width: 210px;
+  background-color: pink;
+  margin: 30px 5px;
+  padding: 12px 0px;
+  float: left;
+
+}
+.img-botom div+div{
+  margin-left: 12px;
+}
+.img-botom div:nth-child(4){
+  text-align: center;
+  height: 210px;
+  width: 450px;
+  border:  2px solid #d3d3d3;
+  margin:30px 0px 30px 12px;
+  float: left;
+}
+.img-botom div a{
+    line-height: 100px;
+}
+.img-botom div h3{
+  margin-top:   -10px;
+    font:33px/30px 'Baskerville Cyrillic LT Std','Arial',sans-serif;
+}
+.img-botom div h4{
+  margin-top:   -70px;
+    font:23px/0px 'Baskerville Cyrillic LT Std','Arial',sans-serif;
+}
+
+.menu-footer h2{
+  text-align: center;
+  color: #888585;
+  font-family:'Baskerville Cyrillic LT Std','Arial',sans-serif;
+  margin: 25px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.menu-footer ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.menu-footer li{
+  display: inline-block;
+}
+.menu-footer li+li{
+  margin-left: 100px;
+}
+.menu-footer li a{
+  text-decoration: none;
+}
+.bottom-footer{
+  text-align: center;
+  background-color: #1A1A1A;
+  color: #fff;
+  margin: 37px -8px 10px;
+  padding: 10px;
+  font-size: 16px;
+
+}
+.bottom-footer ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.bottom-footer li{
+  display: inline-block;
+}
+.bottom-footer li+li{
+  margin-left: 50px;
+}
+.bottom-line{
+  text-align: center;
+  color: #888585;
+}
+.bottom-line div{
+  display: inline-block;
+}
+.bottom-line div+div{
+  margin-left: 20px;
+}
+.kanva{
+  /*  background-color: green;*/
+    margin: 0px 30px 0px 120px;
+}
